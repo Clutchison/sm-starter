@@ -1,5 +1,10 @@
 # Express API Starter
 
+Cribbed from:
+
+- https://auth0.com/blog/node-js-and-typescript-tutorial-build-a-crud-api/
+- https://www.youtube.com/watch?v=eh89VE3Mk5g&t=1s
+
 ## Steps
 
 - Clone this into new git repository
