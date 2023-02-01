@@ -26,6 +26,13 @@ app.use(helmet());
 app.use(cors());
 app.use(express.json());
 
+// Routers
+app.use('/api/menu/items', itemsRouter);
+
+// Error handling
+app.use(errorHandler); // Handle errors
+app.use(notFoundHandler); // Handle 404s
+
 /**
  * Server Activation
  */
